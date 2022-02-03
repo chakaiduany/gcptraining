@@ -10,5 +10,5 @@
    
  steps:
 - name: gcr.io/cloud-builders/docker
-  args: ['build', '-t', 'gcr.io/quiet-sum-338114/cloud-spanner-build', '--build-arg=JAR_FILE=target/jar-file-cloud-spanner', '.']
+  args: ['build', '-t', 'gcr.io/quiet-sum-338114/cloud-spanner-build', '--build-arg=JAR_FILE=target/app/finapp.jar', '.']
 images: ['gcr.io/quiet-sum-338114/cloud-spanner-build']
